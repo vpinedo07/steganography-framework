@@ -112,6 +112,41 @@ h1 {
     width:100%;
     text-align:right;
 }
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer a {
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.footer a i {
+    font-size: 30px; /* Tamaño de los iconos */
+    transition: 0.3s; /* Efecto de transición al pasar el mouse */
+}
+
+/* Color de LinkedIn */
+.footer a .fa-linkedin {
+    color: #0077b5;
+}
+
+/* Color de GitHub (normalmente es negro, pero puedes usar gris oscuro) */
+.footer a .fa-github {
+    color: #181717;
+}
+
+/* Efecto hover para que cambien de color al pasar el mouse */
+.footer a:hover .fa-linkedin {
+    color: #005582;
+}
+
+.footer a:hover .fa-github {
+    color: #444;
+}
+
 textarea{
     width:228px;
     padding:10px;
